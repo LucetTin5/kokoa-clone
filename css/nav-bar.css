@@ -1,0 +1,38 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  /* fixed를 쓸땐 항상 width를 설정해줘야 한다. */
+  background-color: #fcfcfc;
+  border-top: 1px solid #f7f7f7;
+  padding: 20px 50px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 20px;
+}
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -7px;
+  right: -5px;
+  font-size: 10px;
+  color: white;
+  background-color: #e65f3f;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
